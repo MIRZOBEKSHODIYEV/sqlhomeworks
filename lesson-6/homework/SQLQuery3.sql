@@ -1,0 +1,1 @@
+CREATE TABLE dbo.People(    ID INT    ,NAME VARCHAR(10)    ,GENDER VARCHAR(1));INSERT INTO dbo.People(ID,NAME,GENDER)VALUES    (1,'Neeraj','M'),    (2,'Mayank','M'),    (3,'Pawan','M'),    (4,'Gopal','M'),    (5,'Sandeep','M'),    (6,'Isha','F'),    (7,'Sugandha','F'),    (8,'kritika','F');select * from People
